@@ -1,0 +1,149 @@
+:root{
+    --blanco: #ffffff;
+    --gray: rgb(217, 214, 214);
+}
+
+p{
+    margin: 0;
+    color: var(--blanco)
+}
+a{
+    text-decoration: none;
+}
+
+/* seccion de la navegación */
+.gradient{
+    background: rgb(222,16,200);
+    background: linear-gradient(85deg, rgba(222,16,200,1) 5%, rgba(182,64,208,1) 50%, rgba(0,185,255,1) 95%);
+}
+.contenido-logo{
+    margin-left: 100px;
+}
+.logo{
+    font-size: 30px;
+}
+
+.logoInstagram{
+    color: white;
+}
+
+.iconoConfig{
+    margin-right: 200px;
+}
+
+.btn-new{
+    border-radius: 4px;
+    border: 1px solid var(--gray);
+    width: 150px;
+    padding: 1px 7px;
+}
+
+.btn-new:hover{
+    /* color:linear-gradient(85deg, rgba(222,16,200,1) 5%, rgba(182,64,208,1) 50%, rgba(0,185,255,1) 95%); */
+    color:rgba(182,64,208,1);
+    font-weight: 500;
+}
+
+
+/* sección de los botones de cambio de acción*/
+.btn-mosaico{
+    background-color: var(--gray);
+    border: none;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.btn-cuadrado{
+    background-color: var(--gray);
+    border: none;
+    font-size: 30px;
+}
+
+
+/* Sección del modal desplegable */
+
+.input-new-post{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--gray);
+    padding: 5px;
+}
+
+.btn-new-post{
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.btn-new-post:hover{
+    background-color: var(--gray);
+    cursor: pointer;
+}
+
+/* seccion del contenedor de imagenes */
+.contenedorImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.contenedorImg img{
+    width: calc(500px - 10px);
+    height: 100%;
+    border-radius: 2px;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* Sección de tarjetas del poscart.htlm */
+.tarjeta{
+    /* background-color: var(--gray); */
+    border: .5px solid var(--gray);
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.navbarTarjeta{
+    margin-bottom: 30px;
+    text-align:start;
+    padding-left: 10px;
+}
+
+.encabezado h2{
+    padding-top: 15px;
+}
+
+.txt{
+    color: #000000;
+}
+
+.seguidos , .descripcion{
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.logosTarjeta{
+    margin: 20px 10px;
+}
+
+.trio{
+    margin-right: auto;
+}
+
+#encanta, #menu{
+    font-size: 24px;
+}
+
+.comentarioTarjeta{
+    border: none;
+    padding: 5px;
+    margin-right: 4px;
+    font-size: 16px;
+}
